@@ -7,7 +7,7 @@ export default function Testimonio(props) { //componente funcional porque esta c
             <img 
                 className="imagen-testimonio"
                 src={require(`../imagenes/testimonio-${props.imagen}.png`)}
-                alt="Foto de Emma"
+                alt={`Foto de ${props.imagen}`}
             />
             <div className="contenedor-texto-testimonio">
                 <p className="nombre-testimonio"><b>{props.nombre}</b> en {props.pais}</p>
